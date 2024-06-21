@@ -1,0 +1,32 @@
+.registerHeader{
+  margin-top: 20px;
+  margin-left: 20px;
+  color: #191919 !important;
+  font-size: larger !important;
+cursor: pointer;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.registerDiv{
+  background-color: white ;
+  background-size: 100% 150%;
+}
+
+.cardDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardHeader{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  color: #191919;
+}
+.visiterRegisterCard{
+  width: 70%;
+  margin-top: 2.5%;
+  margin-bottom: 2%;
+  box-shadow: 3px 2px 5px 1px rgba(0, 0, 0, 0.519),
+       
+}

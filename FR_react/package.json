@@ -1,0 +1,43 @@
+{
+  "name": "attendance-application",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "base64-js": "^1.5.1",
+    "bootstrap": "^5.3.2",
+    "bootstrap-icons": "^1.11.3",
+    "chart.js": "^4.4.1",
+    "date-fns": "^3.3.1",
+    "nodemon": "^3.0.2",
+    "primeflex": "^3.3.1",
+    "primeicons": "^6.0.1",
+    "primereact": "^10.4.0",
+    "react": "^18.2.0",
+    "react-bootstrap-date-picker": "^5.1.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.0",
+    "react-scripts": "^5.0.1",
+    "script-tag-in-react": "^0.0.6",
+    "socket.io-client": "^4.7.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "vite": "^5.2.11"
+  }
+}

@@ -1,0 +1,21 @@
+.tab {
+  margin-top: 20px;
+}
+
+.p-tabview .p-tabview-nav li .p-tabview-nav-link {
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+a {
+  color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
+  text-decoration: none;
+}
+.p-tabview .p-tabview-nav .p-tabview-ink-bar {
+  z-index: 1;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  height: 1px;
+  background-color: white;
+  transition: 500ms cubic-bezier(0.35, 0, 0.25, 1);
+}

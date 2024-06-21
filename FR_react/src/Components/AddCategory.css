@@ -1,0 +1,56 @@
+/* Container styles */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  /* width: 90%; */
+  /* max-width: 600px; */
+  background-color: #f9f9f9;
+}
+
+/* Form styles */
+.formgrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+
+.field {
+  margin-bottom: 15px;
+}
+/* Calendar styles */
+
+::ng-deep .calender{
+  width: 100% !important;
+}
+/* Button styles */
+
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .formgrid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
+/* Mobile styles */
+@media screen and (max-width: 480px) {
+  .form-container {
+    width: 95%;
+  }
+}
+
+
+.downloadBtn{
+  border-radius: 10px;
+  float: right;
+
+}

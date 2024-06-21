@@ -1,0 +1,45 @@
+/* styles.css */
+
+.title {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+ul li:hover {
+  background-color: gray;
+}
+
+.nav-pills .nav-link {
+  width: 100%; /* Full width for better responsiveness */
+}
+
+.logo-img {
+  width: 40px;
+  height: auto;
+  margin-top: -30px;
+  margin-left: -0.5rem;
+  margin-right: 0.188rem;
+}
+
+.OutletDiv {
+  overflow-y: auto;
+  height: calc(100vh - 60px); /* Adjusted for header height */
+}
+
+@media (max-width: 768px) {
+  .logo-img {
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .nav-link .d-sm-inline {
+    display: inline !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .d-none.d-sm-inline {
+    display: none !important;
+  }
+}

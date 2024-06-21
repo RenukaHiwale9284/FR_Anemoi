@@ -1,0 +1,7 @@
+opencv-python
+gdown
+keras
+tensorflow
+scipy
+psycopg2
+pymongo

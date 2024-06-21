@@ -1,0 +1,27 @@
+.LeaveDiv{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+.hrLine{
+  margin-top: -10px;
+}
+.LeaveCard{
+  width: 80%;
+
+}
+.empInput{
+  width: 100%;
+}
+
+.inputText{
+  margin-left: -12px;
+}
+.input{
+  width: 100%;
+}
+
+.warningBtn {
+  border-radius: "20px" !important;
+}

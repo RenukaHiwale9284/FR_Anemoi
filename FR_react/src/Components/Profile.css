@@ -1,0 +1,22 @@
+.upc{
+  width: 350px;
+  margin: 20px;
+  border-radius: 4px;
+  padding-bottom: 20px;
+  background:white;
+}
+
+  .gradiant{
+    background-image: linear-gradient(#D93965, #205fff);
+    height: 125px;
+    border-radius: 4px 4px 0px 0px;
+  }
+
+.profile-down img{
+height: 150px;
+border-radius: 100px;
+margin-top: -90px;
+padding: 5px;
+background: white;
+margin-left: 6rem;
+}
